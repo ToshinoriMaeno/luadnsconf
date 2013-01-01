@@ -1,6 +1,6 @@
 -- File: hayamiz.com.lua
 -- Variable _a is replaced with zone name by Luadns
--- _a = "postdns.net"
+-- _a = "qmail.jp"
 
 -- parameters
 ttl = 3600
