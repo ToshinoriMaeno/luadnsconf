@@ -4,12 +4,11 @@
 
 -- parameters
 ttl = 3600
-ipaddr = "49.212.150.25"
+ipaddr = "49.212.139.194"
 
 -- configurations
 a(_a, ipaddr, ttl)
 cname("www", _a, ttl)
-cname("jenkins", _a, ttl)
 
 a(concat("mail", _a),	ipaddr, ttl)
 a(concat("mailhost", _a),	ipaddr, ttl)
